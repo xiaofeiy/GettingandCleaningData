@@ -42,6 +42,7 @@ Data set includes the following variables:
 	fBodyAccJerkMag
 	fBodyGyroMag
 	fBodyGyroJerkMag
+	
 
 
 
