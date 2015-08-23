@@ -40,6 +40,7 @@ subject$Subject <- as.factor(subject$Subject)
 ## combined subject ID, activity label and measurements of choice into one dataframe
 data_new <- cbind(subject,labels,data_new)
 
+library(dplyr)
 ## calculate the average of each variable for each activity and each subject
 output <- data_new %>% group_by(Subject,Activity) %>%  summarise_each(funs(mean))
 ## write the new tidy dataset to text file tidydata.txt
