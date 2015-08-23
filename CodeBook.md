@@ -1,24 +1,17 @@
 Human Activity Data
 ==================================================
 Data were summarized from the UCI machine learning repository Human Activity Recognition Using Smartphones Data Set.(data downloaded from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
-Training and testing data from the original dataset were combined into one. Only measurements of mean and standard deviation (measurements that contain “mean” or “std” anywhere the variable name) were extracted from original data set. 79 variables were extracted from the original 561 variables.
-The average of each variable for each activity and each subject were calculated and included in the data set here.
+Training and testing data from the original dataset were combined into one. 
+
 ==================================================
 
 Data set includes the following variables:
 
-1. Subject	Subject identification number
-	1 - 30 represent the 30 subjects in the study
+1. Subject: Subject identification number. 1 - 30 represent the 30 subjects in the study
 
-2. Activity	Activity type
-		WALKING
-		WALKING_UPSTAIRS
-		WALKING_DOWNSTAIRS
-		SITTING
-		STANDING
-		LAYING
+2. Activity: Activity type. 6 types of activities included: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING and LAYING.
 
-3. 79 accelerometer and gyroscope features. Features are normalized and bounded within [-1,1].
+3. 79 accelerometer and gyroscope features: Features are normalized and bounded within [-1,1].
 	Only measurements of mean and standard deviation (measurements that contain “mean” or “std” anywhere the variable name) were extracted from original data set. 79 variables were extracted from the original 561 variables.
 	The average of each variable for each activity and each subject were calculated and included in the data set here.
 
@@ -32,23 +25,23 @@ Data set includes the following variables:
 	These signals were used to estimate variables of the feature vector for each pattern:  
 	'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+	tBodyAcc-XYZ
+	tGravityAcc-XYZ
+	tBodyAccJerk-XYZ
+	tBodyGyro-XYZ
+	tBodyGyroJerk-XYZ
+	tBodyAccMag
+	tGravityAccMag
+	tBodyAccJerkMag
+	tBodyGyroMag
+	tBodyGyroJerkMag
+	fBodyAcc-XYZ
+	fBodyAccJerk-XYZ
+	fBodyGyro-XYZ
+	fBodyAccMag
+	fBodyAccJerkMag
+	fBodyGyroMag
+	fBodyGyroJerkMag
 
 
 
